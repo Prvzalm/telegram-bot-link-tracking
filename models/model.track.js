@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const trackingSchema = new mongoose.Schema({
     link: {
         type: String,
-        required: true,
+        // required: true,
     },
     joinedCount: {
         type: Number,
